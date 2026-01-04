@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bushra-engr.github.io/Ks-Metal-Works/sitemap.xml
