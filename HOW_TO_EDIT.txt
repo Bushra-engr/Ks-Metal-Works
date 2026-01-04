@@ -1,0 +1,15 @@
+HOW TO EDIT YOUR WEBSITE
+
+1. FOR TEXT (Headings, Paragraphs):
+   - Open the HTML file (e.g., index.html) in VS Code.
+   - Search for the text (Ctrl+F) and replace it.
+   - Save (Ctrl+S).
+
+2. FOR PRODUCTS & CAROUSEL:
+   - Open 'script.js'.
+   - Find 'const products' list.
+   - Edit names, images, or descriptions there.
+
+3. FOR IMAGES:
+   - In HTML: Change 'src' attribute of <img> tags.
+   - In CSS: Find 'background: url(...)' in style.css.

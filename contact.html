@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | K'S Metal Works</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container flex justify-between items-center">
+            <a href="index.html" class="nav-logo"><i class="fas fa-layer-group text-brand"></i> K'S METALWORKS</a>
+            <div class="nav-items text-muted">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link">Products</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="process.html" class="nav-link">Process</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="process.html" class="nav-link">Process</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+    </div>
+
+    <!-- Contact Header (Minimal) -->
+    <header class="section" style="padding-top: 140px; padding-bottom: 40px;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Let's Talk</h1>
+            <p class="text-muted" style="max-width: 500px; font-size: 1.1rem;">
+                We'd love to hear about your project. Fill out the form or reach out directly.
+            </p>
+        </div>
+    </header>
+
+    <!-- Lovable Style Split Contact Section -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Left: Form -->
+                <div class="contact-form-wrapper">
+                    <form onsubmit="event.preventDefault(); alert('Message sent!');">
+                        <div class="grid gap-4">
+                            <div class="form-group">
+                                <label class="form-label">Name</label>
+                                <input type="text" class="form-input" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-input" placeholder="name@company.com">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-input" rows="5" placeholder="Tell us about your requirements..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-full">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Right: Info -->
+                <div class="contact-info-wrapper">
+                    <div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt info-icon"></i>
+                            <div class="info-text">
+                                <h4>Visit Us</h4>
+                                <p>Near Loni Road, Gokulpur<br>New Delhi - 110094</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope info-icon"></i>
+                            <div class="info-text">
+                                <h4>Email</h4>
+                                <p>info@ksmetalworks.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone info-icon"></i>
+                            <div class="info-text">
+                                <h4>Call</h4>
+                                <p>+91 9899763247</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Small Map -->
+                    <div style="height: 200px; border-radius: 6px; overflow: hidden; margin-top: 2rem;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224096.37525330368!2d77.12391583002633!3d28.646875502787836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1714120000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Expanded) -->
+    <footer>
+        <div class="container">
+            <div class="grid gap-8" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                
+                <!-- Brand -->
+                <div style="grid-column: span 1.5;">
+                    <a href="#" class="nav-logo" style="color: white; margin-bottom: 1rem;"><i class="fas fa-layer-group text-brand"></i> K'S METALWORKS</a>
+                    <p style="color: #94a3b8; font-size: 1rem; margin-bottom: 2rem; max-width: 300px;">
+                        Leading manufacturer of high-quality sheet metal fabrications, digital standees, and custom enclosures since 2012.
+                    </p>
+                </div>
+
+                <!-- Product Links -->
+                <div>
+                    <h4 class="footer-heading">Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="products.html?cat=signage">Digital Signage</a></li>
+                        <li><a href="products.html?cat=enclosures">Video Walls</a></li>
+                        <li><a href="products.html?cat=kiosks">Touch Kiosks</a></li>
+                        <li><a href="products.html?cat=industrial">Server Racks</a></li>
+                        <li><a href="contact.html">Custom Orders</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Links -->
+                <div>
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="process.html">Our Process</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li style="color: #94a3b8; display:flex; gap:10px;">
+                            <i class="fas fa-map-marker-alt" style="margin-top:5px;"></i> 
+                            Near Loni Road, Gokulpur, New Delhi - 110094
+                        </li>
+                        <li><a href="tel:+919899763247"><i class="fas fa-phone"></i> +91 9899763247</a></li>
+                        <li><a href="mailto:info@ksmetalworks.com"><i class="fas fa-envelope"></i> info@ksmetalworks.com</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div>&copy; 2026 K'S Metal Works. All rights reserved.</div>
+                <div class="flex gap-4 justify-center">
+                    <span>GST: 07AABC1234F1Z5</span>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Lenis & Scripts -->
+    <div class="wa-btn" onclick="openWhatsApp()"><i class="fab fa-whatsapp"></i></div>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
